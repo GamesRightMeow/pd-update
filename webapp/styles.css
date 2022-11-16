@@ -1,0 +1,36 @@
+* {
+  background-color: #101419;
+  color: #D1D5DB;
+  font-family: Roboto,sans-serif;
+}
+
+a:link {
+  color: #F87171;
+  font-weight: 600;
+}
+a:visited {
+  color: #F87171;
+  font-weight: 600;
+}
+a:active {
+  color: #F87171;
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: rgb(31 41 55);
+  font-weight: 600;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
