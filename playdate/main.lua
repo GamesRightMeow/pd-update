@@ -2,8 +2,8 @@ import("CoreLibs/qrcode")
 import("CoreLibs/graphics")
 import("CoreLibs/timer")
 
-local UPDATE_WEBAPP_URL = "192.168.0.133:8000/webapp"
-local ITCHIO_GAME_ID = "sparrow-solitaire"
+local UPDATE_WEBAPP_URL = "www.gamesrightmeow.com/pd-update"
+local ITCHIO_GAME_ID = "pdreader"
 
 local version = playdate.metadata.version
 local qrCode = nil

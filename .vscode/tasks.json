@@ -6,7 +6,7 @@
     {
       "label": "buildPdx",
       "type": "shell",
-      "command": "rmdir ${workspaceFolder}.pdx /s /q & pdc playdate ${workspaceFolder}.pdx",
+      "command": "rmdir ${workspaceFolderBasename}.pdx /s /q & pdc playdate ${workspaceFolderBasename}.pdx",
       "presentation": {
         "echo": true,
         "reveal": "silent",
@@ -20,7 +20,7 @@
     {
       "label": "runSimulator",
       "type": "shell",
-      "command": "PlaydateSimulator ${workspaceFolder}.pdx",
+      "command": "PlaydateSimulator ${workspaceFolderBasename}.pdx",
       "presentation": {
         "echo": true,
         "reveal": "silent",
